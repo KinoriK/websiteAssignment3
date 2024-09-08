@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FaceFramers - Products</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/slick.css"/>
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+
+        <style>
+            .service-section h2 {
+                font-size: 1.2rem;
+                font-weight: 700;
+            }
+
+            .service-section h4 {
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+
+            .service-section p {
+                font-size: 0.8rem;
+                line-height: 1.4;
+                text-align: center;
+                margin-bottom: 10px;
+                max-width: 220px;
+            }
+
+            .service-section img {
+                width: 60px;
+                height: auto;
+                margin-bottom: 10px;
+            }
+
+            .product-title {
+                font-size: 1rem;
+            }
+            .product-p {
+                font-size: 0.85rem;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/navbarimg.png" alt="FaceFramers Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+                        <strong><span>Face</span> Framers</strong>
+                    </a>
+            
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+            
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="site-header section-padding d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-12">
+                            <h1>
+                                <span class="d-block text-primary">Choose your hairstyle!</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="products section-padding service-section" style="padding-bottom: 20px;">
+                <div class="container" style="padding: 0;">
+                    <div class="row text-center align-items-start" style="margin: 0; padding: 0;">
+            
+                        <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+                            <img src="images/product/photo1.jpg" class="img-fluid service-img" alt="Wedding" style="cursor: pointer;" onclick="redirectToProduct('female')">
+                            <h2>Wedding</h2>
+                            <h4>Elegant & Classic</h4>
+                            <p>At Faceframers, we provide our customers with hairstyles that leave them coming back for more. Our Wedding hairstyle consists of simplicity with a touch of flair, for your special day. You won’t believe you waited this long to try Faceframers Wedding styling. Stop by and get your hair done today! Check out my portfolio below.</p>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+                            <img src="images/product/photo2.jpg" class="img-fluid service-img" alt="Gala" style="cursor: pointer;" onclick="redirectToProduct('male')">
+                            <h2>Gala</h2>
+                            <h4>Glam</h4>
+                            <p>There’s an important date coming up and you’re looking to get your hair done — it’s time to call Faceframers Let us make your hair dreams come true. Our Formal hairstyles will give you that unique look for when you want to stand out in the crowd. Pop in today! Your hair is my next work of art. See beautiful examples below.</p>
+                        </div>
+            
+                        <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+                            <img src="images/product/photo3.jpg" class="img-fluid service-img" alt="Style" style="cursor: pointer;" onclick="redirectToProduct('unisex')">
+                            <h2>Style</h2>
+                            <h4>Wotz Trending</h4>
+                            <p>Looking to make a big impression when you step into the room? We provide clients in Daisy Hill with professional hair care services. Our Fashion hairstyles give you the chance to look stunning at comparable rates. Check out these gorgeous examples.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center">
+                            <img src="images/product/photo4.jpg" class="img-fluid service-img" alt="Passion" style="cursor: pointer;" onclick="redirectToProduct('unisex')">
+                            <h2>Passion</h2>
+                            <h4>Love It</h4>
+                            <p>At Faceframers it is our aim to please.  The best compliment a hairdresser is excited to hear is for the client to turn in their chair and say that they "LOVE IT". Here at Faceframers we love all aspects of hairstyling. From creating cuts, creative colours, straightening or curling. We want you to leave our hair studio looking and feeling Fabulous.</p>
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+
+            <section class="products section-padding">
+                <div class="container">
+                    <div class="row text-center">
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="product-thumb" onclick="redirectToProduct('female')">
+                                <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="Female Hairstyling" style="cursor: pointer;">
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">Most Popular</span>
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail-female.html" class="product-title-link">Female</a>
+                                        </h5>
+                                        <p class="product-p">Female Haircut</p>
+                                    </div>
+                                    <small class="product-price text-muted ms-auto">$35</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="product-thumb" onclick="redirectToProduct('male')">
+                                <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="Male Hairstyling" style="cursor: pointer;">
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">Best Price</span>
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail-male.html" class="product-title-link">Male</a>
+                                        </h5>
+                                        <p class="product-p">Male Haircut</p>
+                                    </div>
+                                    <small class="product-price text-muted ms-auto">$25</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="product-thumb" onclick="redirectToProduct('children')">
+                                <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="Children Haircuts" style="cursor: pointer;">
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail-children.html" class="product-title-link">Children</a>
+                                        </h5>
+                                        <p class="product-p">Children Haircuts</p>
+                                    </div>
+                                    <small class="product-price text-muted ms-auto">$15</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mb-4">
+                            <div class="product-thumb" onclick="redirectToProduct('hairextension')">
+                                <img src="images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg" class="img-fluid product-image" alt="Hair Extension" style="cursor: pointer;">
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">Try It!</span>
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail-hairextension.html" class="product-title-link">Hair Extension</a>
+                                        </h5>
+                                        <p class="product-p">Hair Extension</p>
+                                    </div>
+                                    <small class="product-price text-muted ms-auto">$P.O.A</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Face</a> Framers</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>FaceFramers</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+                        <ul class="social-icon">
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

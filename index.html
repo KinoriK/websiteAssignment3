@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>FaceFramers</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/slick.css"/>
+
+        <link href="css/tooplate-little-fashion.css" rel="stylesheet">
+        <style>
+            /* Fix overlapping in About Us section */
+            .site-header.section-padding {
+                padding-top: 12rem;  /* Adjust the padding to prevent overlap */
+                padding-bottom: 12rem;
+            }
+
+            .header-image {
+                position: relative;  /* Ensure the image doesn't go over the text */
+                top: 0;
+                left: 0;
+                width: 100%;  /* Ensure it takes up the full width of the container */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            .about .row {
+                margin-top: 5rem; /* Add margin to create space between header and content */
+            }
+
+            .slick-bottom {
+                padding-top: 2rem; /* Adjust the padding to avoid overlapping */
+                padding-bottom: 2rem;
+            }
+
+            .about h2 {
+                padding-bottom: 1rem; /* Space out the About Us title */
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <section class="preloader">
+            <div class="spinner">
+                <span class="sk-inner-circle"></span>
+            </div>
+        </section>
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <!-- Updated section with logo image -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/navbarimg.png" alt="FaceFramers Logo" style="width: 40px; height: 40px; margin-right: 10px;"> <!-- Adjust the size as needed -->
+                        <strong><span>Face</span> Framers</strong>
+                    </a>
+            
+                    <div class="d-lg-none">
+                        <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+                        <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                    </div>
+            
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-none d-lg-block">
+                            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+                            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="images/slideshow/medium-shot-business-women-high-five.jpeg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Cool Trends</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">With FaceFramers, we offer new trendy hairstyles!</p>
+
+                                    <a href="about.html" class="btn custom-btn">Learn more about us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Follow the Trends!</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">We offer varities of hairstyles!</p>
+
+                                    <a href="product.html" class="btn custom-btn">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="images/slideshow/two-business-partners-working-together-office-computer.jpeg" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Contact Us!</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Give us a try! we always got you covered!</p>
+
+                                    <a href="contact.html" class="btn custom-btn">Reach Out Here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5"> <span>ABOUT</span> US</h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">What is FaceFramers?</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">What Do We Do?</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">What Do We Offer?</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">What <span>Do</span> <br>We Do In <span>Face</span> Framers</h4>
+                                                <p>November 2016, I opened Faceframers in order to provide quality hair care to my faithful customers. I love what I do, and care for my clients, I listen to my clients to have a better understanding for the look they would like to achieve. Located in <a href="contact.html">DaisyHill</a>, FaceFramers Hair Studio offers hair care services to a wide range of happy clients at competitive market rates. At Faceframers, excellence is the name of the game when it comes to styling your hair. Book an appointment to get your hair looking stunning and healthy today!
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about.html" class="custom-link mb-2">
+                                                        Learn more about us
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <div class="d-flex flex-column h-100">
+                                                <h4 class="mb-3" style="font-size: 1.8rem;">At FaceFramers Hair Studio</h4>
+                                                <p style="font-size: 1.2rem;">
+                                                    At FaceFramers Hair Studio, we specialize in bringing out the best in your hair, offering a range of services from precision cuts and vibrant color treatments to luxurious hair extensions and styling for all occasions. Our team of expert stylists is passionate about creating personalized looks that reflect your unique style, ensuring you leave our salon feeling confident, refreshed, and beautiful. Whether you're after a complete transformation or a simple refresh, we’re here to provide top-tier service in a warm and welcoming atmosphere.
+                                                </p>
+                                
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="contact.html" class="custom-link mb-2">
+                                                        Find Our Contacts Here
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">What Do We Offer?</h4>
+                                                <p style="font-size: 1.2rem;">
+                                                    At FaceFramers Hair Studio, we offer a comprehensive range of hair services designed to meet your every need. From precision haircuts and custom color treatments to specialized services like hair extensions, thermal keratin treatments, and creative upstyles, our salon is dedicated to providing the highest quality care for your hair. We also offer additional beauty services, including facial waxing, lash and brow tinting, and more, ensuring you leave feeling polished from head to toe. Our goal is to deliver personalized experiences that enhance your natural beauty and style.
+                                                </p>
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="products.html" class="custom-link mb-2">
+                                                        Explore our services
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>FaceFramers</span> For All Your Hairdressing Needs</h2>
+
+                                <p class="lead mb-4">Meet Your New Best Hairdresser</p>
+                                <p class="lead mb-4">Whether you’re looking for a new style or a simple trim, we can do it all. With our haircuts, you’ll have heads turning with your fresh new do. Spice up your look today with a hot new hairdo that screams “WOW” and makes you stand out because you feel & look Fabulous.</p>
+
+                                <a href="products.html" class="custom-link">
+                                    Explore our Services
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Featured Services</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">Most Popular</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Female Hairstyling</a>
+                                        </h5>
+
+                                        <p class="product-p">Female Hairstyling</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$35</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <span class="product-alert">Best Price</span>
+
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Male Haircut</a>
+                                        </h5>
+
+                                        <p class="product-p">Male Haircuts.</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$25</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12">
+                            <div class="product-thumb">
+                                <a href="product-detail.html">
+                                    <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" class="img-fluid product-image" alt="">
+                                </a>
+
+                                <div class="product-top d-flex">
+                                    <a href="#" class="bi-heart-fill product-icon ms-auto"></a>
+                                </div>
+
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="product-detail.html" class="product-title-link">Children Haircuts</a>
+                                        </h5>
+
+                                        <p class="product-p">Providing with care to childrens</p>
+                                    </div>
+
+                                    <small class="product-price text-muted ms-auto mt-auto mb-5">$15</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <a href="products.html" class="view-all">View All Services</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-10 me-auto mb-4">
+                        <h4 class="text-white mb-3"><a href="index.html">Face</a> Framers</h4>
+                        <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>FaceFramers</strong></p>
+                        <br>
+                        <p class="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                    </div>
+
+                    <div class="col-lg-5 col-8">
+                        <h5 class="text-white mb-3">Sitemap</h5>
+
+                        <ul class="footer-menu d-flex flex-wrap">
+                            <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">Story</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Products</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy policy</a></li>
+
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-4">
+                        <h5 class="text-white mb-3">Social</h5>
+
+                        <ul class="social-icon">
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-skype"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Headroom.js"></script>
+        <script src="js/jQuery.headroom.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
